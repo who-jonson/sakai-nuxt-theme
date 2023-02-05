@@ -124,8 +124,7 @@ export default defineNuxtModule<SakaiNuxtOptions>({
 
   hooks: {
     'pages:extend': (pages) => {
-      // pages = pages.filter(page => page.file)
-      pages.forEach(page => console.log(page.file));
+      // TODO: Remove Demo Pages on Production Build
     }
   },
 

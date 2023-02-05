@@ -2,5 +2,11 @@
   "extends": [
     "@nuxtjs/eslint-config-typescript",
     "@whoj"
-  ]
+  ],
+  "rules": {
+    "no-tabs": "off",
+    "vue/no-template-shadow": "off",
+    "vue/v-on-event-hyphenation": "off",
+    "vue/custom-event-name-casing": "off"
+  }
 }

@@ -11,7 +11,30 @@
   "bugs": {
     "url": "https://github.com/who-jonson/sakai-nuxt-theme/issues"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "main": "./nuxt.config.ts",
+  "files": [
+    "assets",
+    "components",
+    "composables",
+    "directives",
+    "layouts",
+    "modules",
+    "pages",
+    "plugins",
+    "public",
+    "services",
+    ".postcssrc",
+    "app.config.ts",
+    "nuxt.config.ts",
+    "app.vue",
+    "error.vue",
+    "package.json",
+    "README.md"
+  ],
   "engines": {
     "node": "^18.12"
   },
