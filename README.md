@@ -1,8 +1,16 @@
 # Sakai Nuxt Theme
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
+<p>
+  <a href="https://www.npmjs.com/package/@whoj/sakai-nuxt-theme">
+    <img src="https://badgen.net/npm/v/@whoj/sakai-nuxt-theme?icon=npm&color=green&label=" alt="Version">
+  </a>
+  <a href="https://github.com/who-jonson/sakai-nuxt-theme">
+    <img src="https://badgen.net/github/checks/node-formidable/node-formidable/master/macos?icon=github&label=" alt="Linting Status">
+  </a>
+  <a href="https://github.com/who-jonson/sakai-nuxt-theme/blob/master/LICENSE">
+    <img src="https://badgen.net/npm/license/@whoj/sakai-nuxt-theme" alt="License">
+  </a>
+</p>
 
 
 Create Nice Admin Panel with this production ready theme
