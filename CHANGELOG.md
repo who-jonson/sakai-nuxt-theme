@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.1.1
+
+
+### 🩹 Fixes
+
+  - README.md (3a89fd8)
+
+### ❤️  Contributors
+
+- Jonson Bhowmik <jonson_bhowmik@apple.com>
+
 ## v1.1.0
 
 
