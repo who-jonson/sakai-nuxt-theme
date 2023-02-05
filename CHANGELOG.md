@@ -10,7 +10,7 @@
 
 ### ❤️  Contributors
 
-- Jonson Bhowmik <jonson_bhowmik@apple.com>
+- [Jonson B.](https://github.com/who-jonson) <www.jbc.bd@gmail.com>
 
 ## v1.1.0
 
@@ -30,5 +30,5 @@
 
 ### ❤️  Contributors
 
-- Jonson Bhowmik <jonson_bhowmik@apple.com>
+- [Jonson B.](https://github.com/who-jonson) <www.jbc.bd@gmail.com>
 
