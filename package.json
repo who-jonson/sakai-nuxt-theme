@@ -1,0 +1,62 @@
+{
+  "name": "@whoj/sakai-nuxt-theme",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@7.26.3",
+  "homepage": "https://github.com/who-jonson/sakai-nuxt-theme#readme",
+  "repository": {
+    "url": "https://github.com/who-jonson/sakai-nuxt-theme",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/who-jonson/sakai-nuxt-theme/issues"
+  },
+  "main": "./nuxt.config.ts",
+  "engines": {
+    "node": "^18.12"
+  },
+  "scripts": {
+    "dev": "nuxi prepare & nuxi dev .playground",
+    "build": "nuxi build .playground",
+    "generate": "nuxi generate .playground",
+    "preview": "nuxi preview .playground",
+    "stub": "nuxi prepare & nuxi prepare .playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.2.2",
+    "@pinia/nuxt": "^0.4.5",
+    "@vueuse/components": "^9.12.0",
+    "@vueuse/nuxt": "^9.12.0",
+    "@whoj/utils": "^1.5.0",
+    "chart.js": "4.2.0",
+    "pinia": "^2.0.30",
+    "primeflex": "^3.2.1",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.22.1",
+    "prismjs": "1.29.0",
+    "sass": "^1.58.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.1.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@pinia/testing": "^0.0.14",
+    "@testing-library/vue": "latest",
+    "@types/node": "^18.11.18",
+    "@types/prismjs": "^1.26.0",
+    "@types/serialize-javascript": "^5.0.2",
+    "@whoj/eslint-config": "^1.2.0",
+    "eslint": "^8.33.0",
+    "nuxt": "^3.1.2",
+    "typescript": "^4.9.5"
+  },
+  "pnpm": {
+    "allowedDeprecatedVersions": {
+      "stable": "*"
+    },
+    "overrides": {
+      "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@latest"
+    }
+  }
+}
