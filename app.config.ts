@@ -25,11 +25,18 @@ export interface SakaiNuxtTheme {
 }
 
 export default defineAppConfig({
+  /**
+   * Primevue Config
+   * @see https://primevue.org/locale
+   */
   primevueConfig: {
     ripple: true,
     inputStyle: 'outlined'
   },
 
+  /**
+   *  Theme Config
+   */
   sakaiNuxt: {
     name: 'Sakai Nuxt',
 
@@ -156,10 +163,7 @@ export default defineAppConfig({
 
 declare module '@nuxt/schema' {
   interface AppConfigInput {
-    /**
-     * Primevue Config
-     * @see https://primevue.org/locale
-     */
+
     primevueConfig?: ReturnType<typeof usePrimeVue>['config'];
 
     sakaiNuxt?: SakaiNuxtTheme;

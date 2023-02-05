@@ -45,23 +45,13 @@ export default defineNuxtConfig({
     resolve('./modules/sakai-nuxt')
   ],
 
-  nitro: {
-    preset: 'vercel'
-  },
-
   plugins: [
     resolve('./plugins/primevue')
   ],
 
-  pinceau: {
-    configFileName: 'tokens.config'
-  },
-
   vite: {
     build: {
       sourcemap: false
-    },
-    clearScreen: true,
-    logLevel: 'info'
+    }
   }
 });

@@ -1,7 +1,7 @@
 {
   "name": "@whoj/sakai-nuxt-theme",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "packageManager": "pnpm@7.26.3",
   "homepage": "https://github.com/who-jonson/sakai-nuxt-theme#readme",
   "repository": {
@@ -21,6 +21,7 @@
     "generate": "nuxi generate .playground",
     "preview": "nuxi preview .playground",
     "stub": "nuxi prepare & nuxi prepare .playground",
+    "release": "npm run lint:fix && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -47,6 +48,7 @@
     "@types/prismjs": "^1.26.0",
     "@types/serialize-javascript": "^5.0.2",
     "@whoj/eslint-config": "^1.2.0",
+    "changelogen": "^0.4.1",
     "eslint": "^8.33.0",
     "nuxt": "^3.1.2",
     "pinceau": "^0.13.8",

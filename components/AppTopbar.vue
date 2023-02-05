@@ -1,24 +1,15 @@
-<script lang="ts">
-export default defineComponent({
-  emits: ['topbarMenuToggle', 'menuToggle'],
-  setup() {
-    const topbarImage = useAppLogo();
-    return {
-      topbarImage
-    };
-  },
-  computed: {
-    darkTheme() {
-      return this.$appState.darkTheme;
-    }
-  },
-  methods: {
-    onTopbarMenuToggle(event: MouseEvent) {
-      this.$emit('menuToggle', event);
-      this.$emit('topbarMenuToggle', event);
-    }
-  }
-});
+<script lang="ts" setup>
+const emit = defineEmits<{
+  (e: 'menuToggle', event: MouseEvent): void,
+  (e: 'topbarMenuToggle', event: MouseEvent): void
+}>();
+
+const topbarImage = useAppLogo();
+
+function onTopbarMenuToggle(event: MouseEvent) {
+  emit('menuToggle', event);
+  emit('topbarMenuToggle', event);
+}
 </script>
 
 <template>
