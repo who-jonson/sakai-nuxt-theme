@@ -1,5 +1,5 @@
 <script lang="ts">
-export default {
+export default defineComponent({
   name: 'AppFooter',
   computed: {
     darkTheme() {
@@ -11,7 +11,7 @@ export default {
       return this.$appState.darkTheme ? '/images/logo-white.svg' : '/images/logo-dark.svg';
     }
   }
-};
+});
 </script>
 
 <template>

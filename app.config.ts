@@ -14,6 +14,14 @@ export interface SakaiNuxtTheme {
    */
   sidebarMenu?: MenuItem[];
 
+  /**
+   * Define Brand Logo
+   */
+  logo: {
+    light: string,
+    dark: string
+  } | string;
+
 }
 
 export default defineAppConfig({
@@ -24,6 +32,12 @@ export default defineAppConfig({
 
   sakaiNuxt: {
     name: 'Sakai Nuxt',
+
+    logo: {
+      dark: '/images/logo-white.svg',
+      light: '/images/logo-dark.svg'
+    },
+
     sidebarMenu: [
       {
         label: 'Home',

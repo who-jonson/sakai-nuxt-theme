@@ -1,12 +1,15 @@
 <script lang="ts">
 export default defineComponent({
   emits: ['topbarMenuToggle', 'menuToggle'],
+  setup() {
+    const topbarImage = useAppLogo();
+    return {
+      topbarImage
+    };
+  },
   computed: {
     darkTheme() {
       return this.$appState.darkTheme;
-    },
-    topbarImage() {
-      return this.$appState?.darkTheme ? '/images/logo-white.svg' : '/images/logo-dark.svg';
     }
   },
   methods: {
